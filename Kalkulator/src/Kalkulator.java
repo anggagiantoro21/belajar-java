@@ -44,7 +44,7 @@ public class Kalkulator extends javax.swing.JFrame {
         btnTambah = new javax.swing.JButton();
         btnKurang = new javax.swing.JButton();
         btnKali = new javax.swing.JButton();
-        jButton16 = new javax.swing.JButton();
+        btnBagi = new javax.swing.JButton();
         btnClear = new javax.swing.JButton();
         btnSamaDengan = new javax.swing.JButton();
 
@@ -155,10 +155,10 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
-        jButton16.setText("/");
-        jButton16.addActionListener(new java.awt.event.ActionListener() {
+        btnBagi.setText("/");
+        btnBagi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton16ActionPerformed(evt);
+                btnBagiActionPerformed(evt);
             }
         });
 
@@ -221,7 +221,7 @@ public class Kalkulator extends javax.swing.JFrame {
                                             .addGap(18, 18, 18)
                                             .addComponent(btnClear)
                                             .addGap(18, 18, 18)
-                                            .addComponent(jButton16)))))))
+                                            .addComponent(btnBagi)))))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(65, 65, 65)
                         .addComponent(btnSamaDengan, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -255,7 +255,7 @@ public class Kalkulator extends javax.swing.JFrame {
                     .addComponent(btn0)
                     .addComponent(btnTitik)
                     .addComponent(btnClear)
-                    .addComponent(jButton16))
+                    .addComponent(btnBagi))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnSamaDengan)
                 .addGap(12, 12, 12))
@@ -376,13 +376,13 @@ public class Kalkulator extends javax.swing.JFrame {
         pilih = 3;
     }//GEN-LAST:event_btnKaliActionPerformed
 
-    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+    private void btnBagiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBagiActionPerformed
         // TODO add your handling code here:
         bil1 = Double.parseDouble(bilangan);
         display.setText("/");
         bilangan = "";
         pilih = 4;
-    }//GEN-LAST:event_jButton16ActionPerformed
+    }//GEN-LAST:event_btnBagiActionPerformed
 
     private void btnSamaDenganActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSamaDenganActionPerformed
         // TODO add your handling code here:
@@ -462,6 +462,7 @@ public class Kalkulator extends javax.swing.JFrame {
     private javax.swing.JButton btn7;
     private javax.swing.JButton btn8;
     private javax.swing.JButton btn9;
+    private javax.swing.JButton btnBagi;
     private javax.swing.JButton btnClear;
     private javax.swing.JButton btnKali;
     private javax.swing.JButton btnKurang;
@@ -469,7 +470,6 @@ public class Kalkulator extends javax.swing.JFrame {
     private javax.swing.JButton btnTambah;
     private javax.swing.JButton btnTitik;
     private javax.swing.JTextField display;
-    private javax.swing.JButton jButton16;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }

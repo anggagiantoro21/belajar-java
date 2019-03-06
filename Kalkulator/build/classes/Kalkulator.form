@@ -93,7 +93,7 @@
                                               <EmptySpace type="separate" max="-2" attributes="0"/>
                                               <Component id="btnClear" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Component id="jButton16" min="-2" max="-2" attributes="0"/>
+                                              <Component id="btnBagi" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                   </Group>
@@ -140,7 +140,7 @@
                       <Component id="btn0" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="btnTitik" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="btnClear" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton16" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnBagi" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="btnSamaDengan" min="-2" max="-2" attributes="0"/>
@@ -270,12 +270,12 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnKaliActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton16">
+        <Component class="javax.swing.JButton" name="btnBagi">
           <Properties>
             <Property name="text" type="java.lang.String" value="/"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton16ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBagiActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnClear">
